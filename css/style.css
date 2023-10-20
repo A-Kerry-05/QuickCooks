@@ -1,0 +1,269 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+.navigation
+{
+	min-width: 1200px;
+	max-width: 100%;
+	height: 80px;
+	text-align: center;
+	background-color:#46CBB2;
+
+}
+
+
+#wrapper
+{
+	min-width: 1200px;
+	max-width:100%;
+	height: 1080px;
+	background-color: #85CABD;
+	margin: 0 auto;
+}
+
+.logo
+{
+	width: 160px;
+	height: 68px;
+	margin: 0 auto;
+	display:block; 
+	z-index: 999; 
+	cursor: pointer; 
+	-webkit-transition-property: all; 
+	-webkit-transition-duration: 0.3s; 
+	-webkit-transition-timing-function: ease;
+}
+
+.logo:hover
+{
+	transform: scale(1.05);
+}
+
+.buttonl	
+{
+	width: 111px;
+	height: 40px;
+	float: left;
+	margin-right: 25px;
+	margin-top: 30px;
+	
+	top:-50px; 
+	left:-35px; 
+	display:block; 
+	z-index:999; 
+	cursor: pointer; 
+	-webkit-transition-property: all; 
+	-webkit-transition-duration: 0.3s; 
+	-webkit-transition-timing-function: ease;
+}
+
+.buttonl:hover
+{
+	transform: scale(1.05);
+}
+
+.buttonr	
+{
+	width: 111px;
+	height: 40px;
+	float: right;
+	margin-right: 25px;
+	margin-top: 30px;
+	
+	top:-50px; 
+	left:-35px; 
+	display:block; 
+	z-index:999; 
+	cursor: pointer; 
+	-webkit-transition-property: all; 
+	-webkit-transition-duration: 0.3s; 
+	-webkit-transition-timing-function: ease;
+}
+
+.buttonr:hover
+{
+	transform: scale(1.05);
+}
+
+.header
+{
+	padding-top: 15px;
+	padding-left: 15px;
+	width: 425px;
+	height: 36px;
+	text-align: left;
+	font-size: 30px;
+	font-family: "American Typewriter"
+}
+
+.header2
+{
+	padding-top: 180px;
+	padding-left: 100px;
+	width: 425px;
+	height: 220px;
+	text-align: left;
+	font-size: 30px;
+	font-family: "American Typewriter"
+}
+
+.paragraph
+{
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	min-width: 1200px;
+	max-width: 1500px;
+	height: 36px;
+	font-size: 20px;
+	text-align: left;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"	
+}
+
+.paragraph2
+{
+	padding-top: 160px;
+	padding-right: 15px;
+	min-width: 800px;
+	max-width: 800px;
+	float: right;
+	height: 70px;
+	font-size: 20px;
+	text-align: left;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"	
+}
+
+.image
+{
+	min-width: 1000px;
+	max-width: 1500px;
+	min-height: 200px;
+	max-height: 300px;
+	margin: 0 auto;
+}
+
+#footer
+{
+	min-width: 1200px;
+	max-width: 100%;
+	height: 200px;
+	background-color: #2A403C;
+}
+
+.Copyright
+{
+	padding-top: 40px;
+	text-align: center;
+	margin: 0 auto;
+	width: 1000px;
+}
+
+
+.imagebackground
+{
+	margin-top: 12px;
+	width: 100%;
+	height: 490px;
+	background-color: #174038;
+}
+
+.header3
+{
+	padding-top: 15px;
+	padding-left: 15px;
+	width: 500px;
+	height: 36px;
+	text-align: left;
+	font-size: 40px;
+	font-family: "American Typewriter";
+	text-decoration: underline;
+}
+
+.paragraph3
+{
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	min-width: 1200px;
+	max-width: 1500px;
+	height: 500px;
+	font-size: 20px;
+	text-align: left;
+	/*float: left;*/
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"	
+}
+
+.recipe_image {
+
+	
+}
+
+ol {
+	padding-left: 25px;
+}
+
+.paragraph4
+{
+	padding-bottom: 90px;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	min-width: 875px;
+	max-width: 875px;
+	height: 36px;
+	font-size: 20px;
+	text-align: left;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"	
+}
+
+.paragraph5
+{
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	min-width: 875px;
+	max-width: 875px;
+	height: 36px;
+	font-size: 20px;
+	text-align: left;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"	
+}
+
+
+
+.header4
+{
+	padding-top: 30px;
+	padding-left: 15px;
+	width: 500px;
+	height: 36px;
+	text-align: left;
+	font-size: 30px;
+	font-family: "American Typewriter"
+}
+
+
