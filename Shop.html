@@ -1,10 +1,15 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>Shop</title>
-<link rel="stylesheet" type="text/css" href="css/style.css" />
-</head>
+    <head>  <!--Contained within the head of the code are all the links to any extrenal stylesheets/scripts, it contains the title of the page that will appear on the tab and the pages character encoder -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Shop</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/shop_style.css" />
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    </head>
+    <!--For this page, there are 2 external CSS files to seperate the styling of the shop items and the overall style of the website so it is easier to debug-->
+    
 
 <div id="wrapper">		
 <div class="navigation">
@@ -14,7 +19,7 @@
 	
 <a href="Recipes.html">
 <div class="buttonl"><img src="images/recipe_button.png" width="95.3" height="34.2" alt="Recipes"/></div></a>
-
+	<!--The navigation bar is made using multiple div classes for the button images, they also dictate which side of the screen the buttons will appear-->
 <a href="Shop.html">
 <div class="buttonr"><img src="images/shop_button.png" width="95.3" height="34.2" alt="Shop"/></div></a>
 
@@ -25,3 +30,63 @@
 <div class="logo">
 <img src="images/QuickCooks-logos/QuickCooks-logos_cropped.jpg" width="160" height="69" alt="QuickCooks-logo"/></a>
 </div>
+</div>
+
+<!--The following code was part of the tutorial from **, with this tutorial, the shop was created to fit within the website-->
+<body>
+    <div class="box">
+        <div class="cart-count">0</div>
+        <ion-icon name="cart"  id="cart-icon" role="img" class="md hydrated" aria-label="cart">
+                <div class="icon-inner">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="ionicon s-ion-icon" viewBox="0 0 512 512"></svg>
+                    <!--The code above provides a link to external icons that have been used within the code-->
+                </div>
+        </ion-icon>
+      </div>
+
+      <div class="cart">
+        <div class="cart-title">Cart Items</div>
+        <div class="cart-content">
+        
+      <div class="total">
+        <div class="total-title">Total</div>    <!--This section of code creates te cart that will remian hidden until the icon is pressed and will be updated via the JavaAScript attached to the page-->
+        <div class="total-price">£0</div>
+      </div>
+
+      <button class="btn-buy">Place Order</button>
+
+      <ion-icon name="close" id="cart-close"></ion-icon>
+
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <h2 class="title">Discover the Best Food with Our Recipe Book</h2>
+    <div class="shop-content">
+
+
+      <div class="food-box">
+        <div class="pic">
+          <img src="images/1003w-KfvwFqDXuOg.webp" class="food-img">
+        </div>  <!--This section creates the item that can be purchased on the website and allows te user to add it to their cart-->
+        <h2 class="food-title">Recipe Book</h2>
+        <span class="food-price">£40</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+
+   
+
+    </div>
+  </div>
+
+  <div id="footer">
+<!--The footer provides an end to the webpage whilst providing the copyright of the page/website itself-->
+	
+    <div class="Copyright">
+    <p>© 2023-2024, QuickCooks.com, Inc. or its affiliates</p>
+    </div>
+    </div>
+
+    <script src="js/script.js"></script> <!--This is the link to the external JavaScript file that will add items to the cart and provide the user with a way to place their order-->
+</body>
