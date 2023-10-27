@@ -38,7 +38,8 @@ time, mark, audio, video {
 {
 	min-width: 1200px;
 	max-width:100%;
-	height: 1080px;
+	min-height: 1750px;
+	max-height: 100%;
 	background-color: #85CABD;
 	margin: 0 auto;
 }
@@ -170,6 +171,7 @@ time, mark, audio, video {
 	max-width: 100%;
 	height: 200px;
 	background-color: #2A403C;
+	color: white;
 }
 
 .Copyright
@@ -209,7 +211,7 @@ time, mark, audio, video {
 	padding-right: 15px;
 	min-width: 1200px;
 	max-width: 1500px;
-	height: 500px;
+	height: 350px;
 	font-size: 20px;
 	text-align: left;
 	/*float: left;*/
